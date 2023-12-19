@@ -37,9 +37,6 @@ addForm.addEventListener('submit', function(e) {
   list.appendChild(li);
 
   
-
-
-
   
 });
 

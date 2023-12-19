@@ -23,10 +23,23 @@ addForm.addEventListener('submit', function(e) {
   // add content
   deleteBtn.textContent = 'delete';
   bookName.textContent = value;
+
+
+  //add classes
+  bookName.classList.add('name');
+  deleteBtn.classList.add('delete');
+
+
   
   // append to document
   li.appendChild(bookName);
   li.appendChild(deleteBtn);
   list.appendChild(li);
+
+  
+
+
+
+  
 });
 
